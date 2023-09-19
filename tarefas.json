@@ -1,14 +1,15 @@
 {
-    "Artes": [
+    "atualizacao": "19/09",
+    "artes": [],
+    "ciencias": [],
+    "historia": [],
+    "matematica": [],
+    "geografia": [],
+    "portugues": [
         {
-            "descricao": "Releitura do Quarto de van Gogh",
-            "entrega": "26/07"
+            "descricao": "Resumo do livro",
+            "entrega": "25/09"
         }
     ],
-    "Ciencias": [],
-    "Historia": [],
-    "Matematica": [],
-    "Geografia": [],
-    "Portugues": [],
-    "Ingles": []
+    "ingles": []
 }
