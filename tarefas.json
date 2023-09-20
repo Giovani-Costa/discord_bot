@@ -1,6 +1,11 @@
 {
     "atualizacao": "19/09",
-    "artes": [],
+    "artes": [
+        {
+            "descricao": "Escultura no sabão",
+            "entrega": "20/09"
+        }
+    ],
     "ciencias": [],
     "historia": [],
     "matematica": [],
