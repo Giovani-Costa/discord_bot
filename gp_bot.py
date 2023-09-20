@@ -95,9 +95,7 @@ async def on_message(message):
 :man_zombie: Matou achando que era um zumbi :man_zombie:: {escolher_para_cemiterio()}"""
         )
     elif conteudo_lower.startswith("!tarefa"):
-        with open(
-            r"C:\Users\User\OneDrive\Programacao\discord_bot\tarefas.json", "r"
-        ) as file:
+        with open("tarefas.json", "r") as file:
             tarefas = json.load(file)
         organizador_de_prova = OrgananizadorDeTarefa.from_json(tarefas)
         await message.channel.send(organizador_de_prova.representacao())
@@ -115,9 +113,7 @@ async def on_message(message):
         )
 
     elif conteudo_lower.startswith("!pontos"):
-        with open(
-            r"C:\Users\User\OneDrive\Programacao\discord_bot\pontos.json", "r"
-        ) as file:
+        with open("pontos.json", "r") as file:
             pontos = json.load(file)
         points = {p["nome"]: p["pontos"] for p in pontos}
         argumentos = conteudo_lower.split()
@@ -136,7 +132,7 @@ async def on_message(message):
                     if argumentos[2] in points:
                         points[argumentos[2]] += int(argumentos[3])
                         with open(
-                            r"C:\Users\User\OneDrive\Programacao\discord_bot\pontos.json",
+                            "pontos.json",
                             "w",
                         ) as file:
                             json.dump(
@@ -153,7 +149,7 @@ async def on_message(message):
                     if argumentos[2] in points:
                         points[argumentos[2]] -= int(argumentos[3])
                         with open(
-                            r"C:\Users\User\OneDrive\Programacao\discord_bot\pontos.json",
+                            "pontos.json",
                             "w",
                         ) as file:
                             json.dump(
@@ -193,9 +189,7 @@ async def on_message(message):
 {usuario_1}  +  {usuario_2} =  :sparkles:  **{ship}  {porcentagem}%  :sparkles:**"""
         )
     elif conteudo_lower.startswith("!prova"):
-        with open(
-            r"C:\Users\User\OneDrive\Programacao\discord_bot\provas.json", "r"
-        ) as file:
+        with open("provas.json", "r") as file:
             tarefas = json.load(file)
         organizador_de_prova = OrgananizadorDeProvas.from_json(tarefas)
         argumentos = conteudo_lower.split()
