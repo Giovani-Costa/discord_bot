@@ -2,19 +2,43 @@
     "atualizacao": "19/09",
     "artes": [
         {
-            "descricao": "Escultura no sabão",
+            "descricao": "Fazer escultura no sabonete",
             "entrega": "20/09"
         }
     ],
-    "ciencias": [],
-    "historia": [],
-    "matematica": [],
-    "geografia": [],
-    "portugues": [
+    "ciencias": [
         {
-            "descricao": "Resumo do livro",
+            "descricao": "Fazer as pgs 18 a 20",
             "entrega": "25/09"
         }
     ],
-    "ingles": []
+    "historia": [
+        {
+            "descricao": "Copiar as questoes da Revolucao Francesa e do Imperio Napoleonico 2 vezes e responder",
+            "entrega": "26/09"
+        }
+    ],
+    "matematica": [],
+    "geografia": [
+        {
+            "descricao": "Segunda parte do trabalho (comida tipica, a bandeira e o cover)",
+            "entrega": "26/09"
+        },
+        {
+            "descricao": "Segunda parte do trabalho (comida tipica, a bandeira e o cover)",
+            "entrega": "26/09"
+        }
+    ],
+    "portugues": [
+        {
+            "descricao": "Atividade do livro",
+            "entrega": "25/09"
+        }
+    ],
+    "ingles": [
+        {
+            "descricao": "Fazer as pgs 10 a 15",
+            "entrega": "29/09"
+        }
+    ]
 }
