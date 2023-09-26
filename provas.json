@@ -1,13 +1,10 @@
 {
-    "atualizacao": "22/09",
+    "atualizacao": "26/09",
     "artes": {
         "data": "27/09",
         "resumo": "A prova vai ser um trabalho, fazer uma escultura no sabonete ou algum material variado"
     },
-    "ciencias": {
-        "data": "26/09",
-        "resumo": "A materia vai ser:\n**Capitulo 12**\n- Oque e sistema endocrino e qual sua funcao\n- Glandumas e hormonios (tabela da pg 14)\n- Glandulas mistas e exemplos\n- Localizacao das glandulas (desenho da pg 12)\n- Questoes da pg 18 a 20\n \n**Capitulo 13**\n- Diferenciar reproducao assexuada e sexuada\n- Dar exemplos de animais com esses tipos de reproducao\n- Diferenciar fecundacao interna e externa e dar exemplos de animais com esses tipos de fecundacao\n- Os tipos de desenvolvimento embrionario das femeas e dar exemplos (pg 24)\n- Como se forma os gemeos monozigoticos e dizigoticos\n- Estudar questoes das pgs 26 a 29"
-    },
+    "ciencias": null,
     "historia": {
         "data": "27/09",
         "resumo": "A matéraia da prova vai ser **Revolução Francesa e Imperio de Napoleao**, ambas estão no caderno"
@@ -15,11 +12,8 @@
     "matematica": null,
     "geografia": {
         "data": "29/09",
-        "resumo": "Sem materia ate agora"
+        "resumo": "Sem matéria ate agora"
     },
-    "portugues": {
-        "data": "25/09",
-        "resumo": "A materia vai ser:\n- Adjunto adnominal\n- Adjunto adverbial\n- Ficcao cientifica\n- Letras e fonemas (Resumo ainda não preparado)"
-    },
+    "portugues": null,
     "ingles": null
 }
