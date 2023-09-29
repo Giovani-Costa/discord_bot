@@ -1,19 +1,10 @@
 {
-    "atualizacao": "26/09",
-    "artes": {
-        "data": "27/09",
-        "resumo": "A prova vai ser um trabalho, fazer uma escultura no sabonete ou algum material variado"
-    },
+    "atualizacao": "29/09",
+    "artes": null,
     "ciencias": null,
-    "historia": {
-        "data": "27/09",
-        "resumo": "A matéraia da prova vai ser **Revolução Francesa e Imperio de Napoleao**, ambas estão no caderno"
-    },
+    "historia": null,
     "matematica": null,
-    "geografia": {
-        "data": "29/09",
-        "resumo": "Sem matéria ate agora"
-    },
+    "geografia": null,
     "portugues": null,
     "ingles": null
 }

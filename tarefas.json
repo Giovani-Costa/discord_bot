@@ -1,18 +1,8 @@
 {
-    "atualizacao": "26/09",
-    "artes": [
-        {
-            "descricao": "Fazer escultura no sabonete",
-            "entrega": "27/09"
-        }
-    ],
+    "atualizacao": "29/09",
+    "artes": [],
     "ciencias": [],
-    "historia": [
-        {
-            "descricao": "Copiar as questões da Revolucao Francesa e do Império Napoleonico 2 vezes e responder",
-            "entrega": "26/09"
-        }
-    ],
+    "historia": [],
     "matematica": [],
     "geografia": [
         {
@@ -24,7 +14,7 @@
     "ingles": [
         {
             "descricao": "Fazer as páginas 10 a 15",
-            "entrega": "29/09"
+            "entrega": "06/09"
         }
     ]
 }
