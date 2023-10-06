@@ -206,9 +206,14 @@ async def on_message(message):
                 "Ok, esse é um modpack da versão 1.19.2 do Forge e não tem Optifine:\n \nhttps://www.mediafire.com/file/c756o0tcsweaq62/GPS1REMAKE.zip/file"
             )
         elif modpack == "better vanilla":
-            "Ok, esse é o modpack é da versão 1.20.1 do Fabric e não tem Optifine:\n \nhttps://www.mediafire.com/file/3pmwpuv6c9sya01/better_vanilla.zip/file"
+            await message.channel.send(
+                "Ok, esse é o modpack é da versão 1.20.1 do Fabric e não tem Optifine:\n \nhttps://www.mediafire.com/file/3pmwpuv6c9sya01/better_vanilla.zip/file"
+            )
+
         elif modpack == "tmt":
-            "Ok, esse é o modpack é da versão 1.16.5 do Forge e não tem Optifine\n \nhttps://www.mediafire.com/file/cav1sg63ciko4yu/TMT.zip/file"
+            await message.channel.send(
+                "Ok, esse é o modpack é da versão 1.16.5 do Forge e não tem Optifine\n \nhttps://www.mediafire.com/file/cav1sg63ciko4yu/TMT.zip/file"
+            )
         else:
             await message.channel.send(
                 "Essa é a lista de modpacks disponíveis:\n- GP Server 1:Remake\n- Better Vanilla\n- TMT (Modpack do João Pedro)"
