@@ -216,7 +216,7 @@ async def on_message(message):
             )
         else:
             await message.channel.send(
-                "Essa é a lista de modpacks disponíveis:\n- GP Server 1:Remake\n- Better Vanilla\n- TMT (Modpack do João Pedro)"
+                "Essa é a lista de modpacks disponíveis:\n- GPS1: Remake\n- Better Vanilla\n- TMT (Modpack do João Pedro)"
             )
 
 
