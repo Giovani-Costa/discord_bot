@@ -218,6 +218,10 @@ async def on_message(message):
             await message.channel.send(
                 "Essa é a lista de modpacks disponíveis:\n- GPS1: Remake\n- Better Vanilla\n- TMT (Modpack do João Pedro)"
             )
+    elif conteudo_lower.startswith("!bf server"):
+        await message.channel.send(
+            "https://www.roblox.com/games/2753915549/Blox-Fruits?privateServerLinkCode=69734178196634724042423985696699"
+        )
 
 
 client.run(token)
