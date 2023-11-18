@@ -1,20 +1,13 @@
 {
-    "atualizacao": "29/09",
-    "artes": [],
-    "ciencias": [],
-    "historia": [],
-    "matematica": [],
-    "geografia": [
-        {
-            "descricao": "Segunda parte do trabalho (comida típica, a bandeira e o cover)",
-            "entrega": "03/10"
-        }
-    ],
-    "portugues": [],
-    "ingles": [
-        {
-            "descricao": "Fazer as páginas 10 a 15",
-            "entrega": "06/09"
-        }
-    ]
+    "artes": null,
+    "atualizacao": "17/10",
+    "ciencias": null,
+    "geografia": {
+        "data": "20/10",
+        "resumo": "teste"
+    },
+    "historia": null,
+    "ingles": null,
+    "matematica": null,
+    "portugues": null
 }

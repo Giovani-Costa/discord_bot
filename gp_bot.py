@@ -16,8 +16,8 @@ token = key.get("token")
 # 1- !pontos {usuário} | Dar uma otimizada
 # 2- !ips | O bot manda o IP do servidor do minecraft. Acho q esse é o menos provável q da certo de fazer pq depende de outros site
 # 3- !help | Atualizar o help
-# 4- !tarefa | Script de limpeza
-# 5- !prova | Script de limpeza
+# 4- !priv servers | Nesse comando o bot manda links de servidores privados no chat do jogo escolhido
+# 5- !prova | Testar script de limpeza e fazer interação pra quando não tiver nenhuma prova
 
 
 @client.event
@@ -214,14 +214,28 @@ async def on_message(message):
             await message.channel.send(
                 "Ok, esse é o modpack é da versão 1.16.5 do Forge e não tem Optifine\n \nhttps://www.mediafire.com/file/cav1sg63ciko4yu/TMT.zip/file"
             )
+        elif modpack == "gps:":
+            await message.channel.send(
+                "Ok, esse modpack é da versão 1.16.5 do Forge e não tem Optifine\n \nhttps://www.mediafire.com/file/8pgxnzkzk6jhkk3/mods.zip/file"
+            )
         else:
             await message.channel.send(
                 "Essa é a lista de modpacks disponíveis:\n- GPS1: Remake\n- Better Vanilla\n- TMT (Modpack do João Pedro)"
             )
-    elif conteudo_lower.startswith("!bf server"):
-        await message.channel.send(
-            "https://www.roblox.com/games/2753915549/Blox-Fruits?privateServerLinkCode=69734178196634724042423985696699"
-        )
+    elif conteudo_lower.startswith("!pv server"):
+        server = conteudo_lower.split()
+        if server == "blox fruits 1":
+            await message.channel.send(
+                "https://www.roblox.com/games/2753915549/Blox-Fruits?privateServerLinkCode=69734178196634724042423985696699"
+            )
+        elif server == "blox fruits 2":
+            await message.channel.send(
+                "https://www.roblox.com/games/2753915549/GHOST-Blox-Fruits?privateServerLinkCode=11243825161397160078908856489580"
+            )
+        elif server == "blox fruits 3":
+            await message.channel.send(
+                "https://www.roblox.com/games/2753915549/Blox-Fruits?privateServerLinkCode=69734178196634724042423985696699"
+            )
 
 
 client.run(token)
