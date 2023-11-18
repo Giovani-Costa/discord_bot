@@ -62,7 +62,8 @@ async def on_message(message):
 **3-** Você não pode mandar qualquer coisa que faça referencia a coisas obcenas
 **4-** Você deve colocar áudios estorados em algum bot de música
 **5-** Você não pode mandar nenhum vírus/malware na central de downloa
-**6-** Caso esteje participando do GP Server, não desrespeitar as regras. Para saber quais são digite: !GP Server regras"""
+**6-** Caso esteje participando do GP Server, não desrespeitar as regras. Para saber quais são digite: !GP Server regras
+**7-** Proibido mandar thumb de vídeo em qualquer chat"""
         )
 
     elif conteudo_lower.startswith("!gp server regras"):
@@ -108,8 +109,11 @@ async def on_message(message):
 :clipboard:  **3-** !regras | Nesse comando eu falo as regras do servidor  :clipboard:
 :pencil:  **4-** !!gp server regras | Nesse comando eu falo as regras do servidor do minecraft. Recomendado ver com frequência devido as mudanças frequêntes  :pencil:
 :books:  **5-** !tarefas | Nesse comando eu mando as atuais (ou não) tarefas do 8 ano B  :books:
-:coffin:  **6-** !cemitério | Nesse comando eu pego nome de jogadores aleatórios e simulo um velório (Idéia: Pareozitas)  :coffin:
-:gp_point: **7-** !pontos | Nesse comando eu digo a sua quantidade de pontos  :gp_point:"""
+:coffin:  **6-** !cemitério | Nesse comando eu pego nome de jogadores aleatórios e simulo um velório (Ideia: Pareozitas)  :coffin:
+:gp_point: **7-** !pontos | Nesse comando eu digo a sua quantidade de pontos  :gp_point:
+:package: **8-** !modpack | Nesse comando eu digo os modpack de minecraft  :package:
+:heart: **9-** !ship | Nesse comando eu formo um ship com usuários aleatórios (Ideia: Allan)  :heart:
+:airplane_small **10-** !pv server | Nesse comando eu manda os servidores VIP que tenho no banco de dados"""
         )
 
     elif conteudo_lower.startswith("!pontos"):
@@ -214,13 +218,13 @@ async def on_message(message):
             await message.channel.send(
                 "Ok, esse é o modpack é da versão 1.16.5 do Forge e não tem Optifine\n \nhttps://www.mediafire.com/file/cav1sg63ciko4yu/TMT.zip/file"
             )
-        elif modpack == "gps:":
+        elif modpack.startswith == "gps:":
             await message.channel.send(
                 "Ok, esse modpack é da versão 1.16.5 do Forge e não tem Optifine\n \nhttps://www.mediafire.com/file/8pgxnzkzk6jhkk3/mods.zip/file"
             )
         else:
             await message.channel.send(
-                "Essa é a lista de modpacks disponíveis:\n- GPS1: Remake\n- Better Vanilla\n- TMT (Modpack do João Pedro)"
+                "Essa é a lista de modpacks disponíveis:\n- GPS1: Remake\n- Better Vanilla\n- TMT (Modpack do João Pedro)\n- GPS: To the sky"
             )
     elif conteudo_lower.startswith("!pv server"):
         server = conteudo_lower.split()
