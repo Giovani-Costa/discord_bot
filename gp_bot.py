@@ -113,7 +113,7 @@ async def on_message(message):
 :gp_point: **7-** !pontos | Nesse comando eu digo a sua quantidade de pontos  :gp_point:
 :package: **8-** !modpack | Nesse comando eu digo os modpack de minecraft  :package:
 :heart: **9-** !ship | Nesse comando eu formo um ship com usuários aleatórios (Ideia: Allan)  :heart:
-:airplane_small: **10-** !pv server [jogo] | Nesse comando eu manda os servidores VIP que tenho no banco de dados  :airplane_small:"""
+:airplane_small: **10-** !ps [abreviação do jogo] | Nesse comando eu manda os servidores VIP que tenho no banco de dados  :airplane_small:"""
         )
 
     elif conteudo_lower.startswith("!pontos"):
@@ -226,17 +226,18 @@ async def on_message(message):
             await message.channel.send(
                 "Essa é a lista de modpacks disponíveis:\n- GPS1: Remake\n- Better Vanilla\n- TMT (Modpack do João Pedro)\n- GPS: To the sky"
             )
-    elif conteudo_lower.startswith("!pv server"):
-        server = conteudo_lower.split()
-        if server[2] == "bf1":
+    elif conteudo_lower.startswith("!ps"):
+        server = conteudo_lower[4:]
+        print(server)
+        if server == "bf1":
             await message.channel.send(
                 "https://www.roblox.com/games/2753915549/Blox-Fruits?privateServerLinkCode=69734178196634724042423985696699"
             )
-        elif server[2] == "blf2":
+        elif server == "bf2":
             await message.channel.send(
                 "https://www.roblox.com/games/2753915549/GHOST-Blox-Fruits?privateServerLinkCode=11243825161397160078908856489580"
             )
-        elif server[2] == "bf3":
+        elif server == "bf3":
             await message.channel.send(
                 "https://www.roblox.com/games/2753915549/Blox-Fruits?privateServerLinkCode=69734178196634724042423985696699"
             )
