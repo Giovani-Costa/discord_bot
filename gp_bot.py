@@ -228,15 +228,15 @@ async def on_message(message):
             )
     elif conteudo_lower.startswith("!pv server"):
         server = conteudo_lower.split()
-        if server[3] == "bf1":
+        if server[2] == "bf1":
             await message.channel.send(
                 "https://www.roblox.com/games/2753915549/Blox-Fruits?privateServerLinkCode=69734178196634724042423985696699"
             )
-        elif server[3] == "blf2":
+        elif server[2] == "blf2":
             await message.channel.send(
                 "https://www.roblox.com/games/2753915549/GHOST-Blox-Fruits?privateServerLinkCode=11243825161397160078908856489580"
             )
-        elif server[3] == "bf3":
+        elif server[2] == "bf3":
             await message.channel.send(
                 "https://www.roblox.com/games/2753915549/Blox-Fruits?privateServerLinkCode=69734178196634724042423985696699"
             )
