@@ -1,13 +1,35 @@
 {
-    "artes": null,
-    "atualizacao": "17/10",
-    "ciencias": null,
-    "geografia": {
-        "data": "20/10",
-        "resumo": "teste"
-    },
-    "historia": null,
-    "ingles": null,
-    "matematica": null,
-    "portugues": null
+    "artes": [
+        {
+            "descricao": "Terminar as dobraduras para o teatro dos Três Porquinhos",
+            "entrega": "22/11"
+        }
+    ],
+    "atualizacao": "03/10",
+    "ciencias": [],
+    "geografia": [
+        {
+            "descricao": "Fazer um trabalho em folha separada com capa sobre América Anglo-saxonica/ América Latina, mais detalhes no caderno",
+            "entrega": "01/12"
+        }
+    ],
+    "historia": [
+        {
+            "descricao": "Terminar a apostila volume 4",
+            "entrega": "21/11"
+        }
+    ],
+    "ingles": [
+        {
+            "descricao": "Traduzir tudo nas pgs 28 e 29 e responder em inglês, mais detalhes no caderno",
+            "entrega": "24/11"
+        }
+    ],
+    "matematica": [],
+    "portugues": [
+        {
+            "descricao": "Fazer a atividade do livro em uma folha separada com capa (o trabalho tem que conter: Nome do aluno, a série, o número de páginas do livro, um resuminho do livro e pontos que você gostaria de destacar sobre o livro)",
+            "entrega": "04/12"
+        }
+    ]
 }
