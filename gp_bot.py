@@ -207,7 +207,7 @@ async def on_message(message):
         modpack = conteudo_lower[9:]
         if modpack.startswith("gps1"):
             await message.channel.send(
-                "Ok, esse é um modpack da versão 1.19.2 do Forge e não tem Optifine:\n \nhttps://www.mediafire.com/file/c756o0tcsweaq62/GPS1REMAKE.zip/file"
+                "Ok, esse é um modpack da versão 1.20.1 do Forge e não tem Optifine:\n \nhttps://www.mediafire.com/file/3kbd4ch7qk7lhof/GPS1.zip/file"
             )
         elif modpack == "better vanilla":
             await message.channel.send(
