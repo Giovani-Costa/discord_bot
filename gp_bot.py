@@ -208,8 +208,9 @@ async def on_message(message):
     #     "resumo": "teste"
     # }
     elif conteudo_lower.startswith("!modpack"):
-        modpack = conteudo_lower[9:]
-        if modpack.startswith("gps1"):
+        modpack = conteudo_lower.split()
+        print(modpack)
+        if modpack == "gps1":
             await message.channel.send(
                 "Ok, esse é um modpack da versão 1.20.1 do Forge e não tem Optifine:\n \nhttps://www.mediafire.com/file/3kbd4ch7qk7lhof/GPS1.zip/file"
             )
@@ -226,7 +227,7 @@ async def on_message(message):
             await message.channel.send(
                 "Ok, esse modpack é da versão 1.16.5 do Forge e não tem Optifine\n \nhttps://www.mediafire.com/file/8pgxnzkzk6jhkk3/mods.zip/file"
             )
-        elif modpack.startswith == "gps2":
+        elif modpack.startswith == " gps2":
             "Ok, esse modpack é da versão 1.16.5 do Forge e tem Optifine\n \nhttps://www.mediafire.com/file/imnobqf447utws5/mods.zip/file"
         else:
             await message.channel.send(
