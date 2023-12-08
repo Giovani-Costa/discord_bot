@@ -203,6 +203,10 @@ async def on_message(message):
             await message.channel.send(
                 organizador_de_prova.representacao_resumo(argumentos[1])
             )
+    # "ciencias": {
+    #     "data": "17/10",
+    #     "resumo": "teste"
+    # }
     elif conteudo_lower.startswith("!modpack"):
         modpack = conteudo_lower[9:]
         if modpack.startswith("gps1"):
@@ -222,9 +226,11 @@ async def on_message(message):
             await message.channel.send(
                 "Ok, esse modpack é da versão 1.16.5 do Forge e não tem Optifine\n \nhttps://www.mediafire.com/file/8pgxnzkzk6jhkk3/mods.zip/file"
             )
+        elif modpack.startswith == "gps2":
+            "Ok, esse modpack é da versão 1.16.5 do Forge e tem Optifine\n \nhttps://www.mediafire.com/file/imnobqf447utws5/mods.zip/file"
         else:
             await message.channel.send(
-                "Essa é a lista de modpacks disponíveis:\n- GPS1: Remake\n- Better Vanilla\n- TMT (Modpack do João Pedro)\n- GPS: To the sky"
+                "Essa é a lista de modpacks disponíveis:\n- GPS1: Remake\n- Better Vanilla\n- TMT (Modpack do João Pedro)\n- GPS: To the sky\n- GPS2 Remake: The Pokémon League"
             )
     elif conteudo_lower.startswith("!ps"):
         server = conteudo_lower[4:]
