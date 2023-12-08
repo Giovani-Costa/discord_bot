@@ -209,25 +209,27 @@ async def on_message(message):
     # }
     elif conteudo_lower.startswith("!modpack"):
         modpack = conteudo_lower.split()
-        if modpack[2] == "gps1":
+        if modpack[1] == "gps1":
             await message.channel.send(
                 "Ok, esse é um modpack da versão 1.20.1 do Forge e não tem Optifine:\n \nhttps://www.mediafire.com/file/3kbd4ch7qk7lhof/GPS1.zip/file"
             )
-        elif modpack[2] == "better vanilla":
+        elif modpack[1] == "better vanilla":
             await message.channel.send(
                 "Ok, esse é o modpack é da versão 1.20.1 do Fabric e não tem Optifine:\n \nhttps://www.mediafire.com/file/3pmwpuv6c9sya01/better_vanilla.zip/file"
             )
 
-        elif modpack[2] == "tmt":
+        elif modpack[1] == "tmt":
             await message.channel.send(
                 "Ok, esse é o modpack é da versão 1.16.5 do Forge e não tem Optifine\n \nhttps://www.mediafire.com/file/cav1sg63ciko4yu/TMT.zip/file"
             )
-        elif modpack[2] == "gps:":
+        elif modpack[1] == "gps:":
             await message.channel.send(
                 "Ok, esse modpack é da versão 1.16.5 do Forge e não tem Optifine\n \nhttps://www.mediafire.com/file/8pgxnzkzk6jhkk3/mods.zip/file"
             )
-        elif modpack[2] == "gps2":
-            "Ok, esse modpack é da versão 1.16.5 do Forge e tem Optifine\n \nhttps://www.mediafire.com/file/imnobqf447utws5/mods.zip/file"
+        elif modpack[1] == "gps2":
+            await message.channel.send(
+                "Ok, esse modpack é da versão 1.16.5 do Forge e tem Optifine\n \nhttps://www.mediafire.com/file/imnobqf447utws5/mods.zip/file"
+            )
         else:
             await message.channel.send(
                 "Essa é a lista de modpacks disponíveis:\n- GPS1: Remake\n- Better Vanilla\n- TMT (Modpack do João Pedro)\n- GPS: To the sky\n- GPS2 Remake: The Pokémon League"
