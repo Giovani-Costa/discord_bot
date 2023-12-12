@@ -16,8 +16,7 @@ token = key.get("token")
 # 1- !pontos {usuário} | Dar uma otimizada
 # 2- !ips | O bot manda o IP do servidor do minecraft. Acho q esse é o menos provável q da certo de fazer pq depende de outros site
 # 3- !help | Atualizar o help
-# 4- !priv servers | Nesse comando o bot manda links de servidores privados no chat do jogo escolhido
-# 5- !prova | Testar script de limpeza e fazer interação pra quando não tiver nenhuma prova
+# 4- !prova | Testar script de limpeza e fazer interação pra quando não tiver nenhuma prova
 
 
 @client.event
