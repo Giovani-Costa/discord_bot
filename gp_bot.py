@@ -207,6 +207,7 @@ async def on_message(message):
     #     "data": "17/10",
     #     "resumo": "teste"
     # }
+
     elif conteudo_lower.startswith("!modpack"):
         modpack = conteudo_lower.split()
         if modpack[1] == "gps1":
