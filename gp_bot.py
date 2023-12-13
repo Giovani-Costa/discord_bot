@@ -215,7 +215,7 @@ async def on_message(message):
             )
         elif modpack[1] == "better vanilla":
             await message.channel.send(
-                "Ok, esse é o modpack é da versão 1.20.1 do Fabric e não tem Optifine:\n \nhttps://www.mediafire.com/file/3pmwpuv6c9sya01/better_vanilla.zip/file"
+                "Ok, esse é o modpack é da versão 1.20.1 do Fabric e não tem Optifine:\n \nhttps://www.mediafire.com/file/2mo110c2te0bs2l/mods%25282%2529.zip/file"
             )
 
         elif modpack[1] == "tmt":
