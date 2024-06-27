@@ -41,8 +41,25 @@ class OrgananizadorDeProvas:
                 informacao[materia] = Prova("", "")
         return cls(**informacao)
 
+    def esta_vazio(self) -> bool:
+        if (
+            self.artes.data == ""
+            and self.ciencias.data == ""
+            and self.historia.data == ""
+            and self.matematica.data == ""
+            and self.geografia.data == ""
+            and self.portugues.data == ""
+            and self.ingles.data == ""
+        ):
+            return True
+        else:
+            return False
+
     def representacao(self) -> str:
-        exams = f"""Última atualização: **{self.atualizacao}**
+        if self.esta_vazio():
+            exams = "Nenhuma prova no momento"
+        else:
+            exams = f"""Última atualização: **{self.atualizacao}**
 
 :art: Artes |  {self.artes.data}
 :test_tube: Ciências | {self.ciencias.data}
